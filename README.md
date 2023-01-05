@@ -4,7 +4,7 @@
 
 **Lista de modulos**
 
-- [ ] Versionamento
+- [X] Versionamento
 - [ ] Logica de progamação  
 - [ ] Java
 - [ ] Banco de Dados
