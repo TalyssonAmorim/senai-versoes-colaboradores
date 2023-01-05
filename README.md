@@ -1,4 +1,4 @@
-# plano_de_estudos Java senai
+# plano_de_estudos_Java_Senai
 
     trilha de resumo da grade curricular
 
