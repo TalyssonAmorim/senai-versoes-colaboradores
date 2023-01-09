@@ -1,0 +1,31 @@
+idade <-- perguntar idade
+
+<se maior de 18>{
+	hoje <-- data desejada 
+	<se data > hoje>{
+		<listar participantes e palestrantes>
+			<se participantes < 100>{
+				<criar fluxograma de requisitos do sistema>
+			}
+			<se nao>{
+				<alertar exesso limite de participantes>
+			}
+	<se nao>{
+		<alertar data invalida>
+	}
+<se nao>{
+	<alertar cadasto nao permitido por idade>
+}
+
+
+nota01 <-- perguntar 1 nota
+nota02 <-- perguntar 2 nota
+nota03 <-- perguntar 3 nota
+
+media <-- (nota01 + nota02 + nota03)/3
+
+<if media > 07>{
+	<mostar mensagem de aprovado>
+}
+<else>
+	<mostar mensagem de reprovado>
