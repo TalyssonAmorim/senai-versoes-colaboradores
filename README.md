@@ -5,7 +5,7 @@
 **Lista de modulos**
 
 - [X] Versionamento
-- [ ] Logica de progamação  
+- [X] Logica de progamação  
 - [ ] Java
 - [ ] Banco de Dados
 - [ ] Spring
