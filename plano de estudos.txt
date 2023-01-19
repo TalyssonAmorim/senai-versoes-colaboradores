@@ -1,4 +1,5 @@
-	##DIA 01
+				Curso em Video
+	### Modulo 01
 Aula 1 – História do Java 				- OK
 Exercícios de Java #01					- OK
 Aula 02 – Como Funciona o Java				- OK
@@ -11,7 +12,7 @@ Exercícios de Java #04					- OK
 Aula 5 – Introdução ao Swing e JavaFX			- Assistindo
 Exercícios de Java #05
 
-	##DIA 02
+	### Modulo 02
 Aula 6 – Tipos Primitivos e Manipulação de Dados
 Exercícios de Java #06
 Aula 7 – Operadores Aritméticos e Classe Math
@@ -23,7 +24,7 @@ Exercícios de Java #09
 Aula 10 – Estruturas Condicionais (Parte 2)
 Exercícios de Java #10
 
-	##DIA 03
+	### Modulo 03
 Aula 11 – Estruturas de Repetição (Parte 1)
 Exercícios de Java #11
 Aula 12 – Estruturas de Repetição (Parte 2)
@@ -35,4 +36,7 @@ Exercícios de Java #14
 Aula 15 – Métodos
 Exercícios de Java #15
 
-	##DIA 04 REVISAO
+	### Modulo 04 REVISAO
+	
+	
+### Curso ministrado pelo Professor.: Gustavo Guanabara
