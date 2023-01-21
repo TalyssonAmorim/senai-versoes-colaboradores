@@ -1,0 +1,31 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class MediaCem {
+
+	public static void main(String[] args) {
+		int num;
+		int maior = 0 , menor = 0,  aux, i;
+		
+		Scanner cont = new Scanner(System.in);
+		for(i = 0; i<100; i++) {
+			do {
+				System.out.println("Insira o primeiro numero:");
+				num = cont.nextInt();
+				if(num > maior) {
+					maior = num;
+				}
+				if(num < menor) {
+					menor = num;
+				}
+				System.out.println("Deseja inserir outro numero? Caso nao, insra 0");
+				num = cont.nextInt();
+			}while(num != 0);
+			System.out.println("Encerrado o vetor");
+			}
+		}
+
+	}
+
+}

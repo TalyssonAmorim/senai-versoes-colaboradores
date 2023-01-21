@@ -1,0 +1,32 @@
+package exercicios;
+
+import java.util.Scanner;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.time.Period;
+
+public class IdadeAtual {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		String aniv = new String();
+
+		System.out.println("Informe a sua data de nascimento :");
+		aniv = scan.next();
+		
+		if (!aniv.matches("\\d{2}/\\d{2}/\\d{4}")) {
+		    System.out.println("Data inválida. Por favor, informe a data no formato dd/MM/yyyy");
+		    return;
+		}
+
+		LocalDate birthday = LocalDate.parse(aniv, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+		LocalDate today = LocalDate.now();
+		Period difference = Period.between(birthday, today);
+
+		if (difference.isNegative()) {
+		    difference = difference.negated();
+		}
+		System.out.println("Sua idade atual então é : " + difference.getYears()+" Anos, "+ difference.getMonths()+" Messes e "+ difference.getDays()+" Dias.");
+		
+	}
+}

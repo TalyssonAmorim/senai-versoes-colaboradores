@@ -1,0 +1,16 @@
+package exercicios;
+
+import java.util.Scanner;
+public class IdadeAtual {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		String aniv = new String();
+		
+		System.out.println("Iforme a sua data de nascimento (DD/MM/AAAA):");
+		aniv = scan.next();
+
+		System.out.println(aniv);
+	}
+
+}

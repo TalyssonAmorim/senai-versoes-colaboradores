@@ -1,0 +1,21 @@
+package exercicios;
+
+import java.util.Scanner;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
+public class IdadeAtual {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		String aniv = new String();
+		
+		System.out.println("Iforme a sua data de nascimento (DD/MM/AAAA):");
+		aniv = scan.next();
+
+		LocalDate today = LocalDate.now();
+		DateTimeFormatter inputFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+	    System.out.println(today);
+		
+	}
+}

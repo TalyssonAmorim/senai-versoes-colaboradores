@@ -1,0 +1,13 @@
+package exercicios;
+
+
+import javax.Swing.JOptionPane;
+
+public class Crecente {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class MaiorIdade {
+	public static void main(String[] args) {
+		int idade;
+		
+			System.out.println("Entre com a sua idade: ");
+			idade = new Scanner(System.in).nextInt();	
+			
+			if (idade < 18) {
+				System.out.println("você não é  maior de idade ! ");
+			} else {
+				System.out.println("você é maior de idade ! ");
+			}
+		}
+	}
+

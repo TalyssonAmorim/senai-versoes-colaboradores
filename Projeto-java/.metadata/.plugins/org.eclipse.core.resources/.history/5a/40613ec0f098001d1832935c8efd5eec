@@ -1,0 +1,16 @@
+package exercicios;
+
+public class NumeroAleatorio {
+
+	public static void main(String[] args) {
+		   
+	      double numAleatorio = Math.random();
+	      System.out.println("Número gerado: " + round(numAleatorio));
+
+	}
+
+	private static String round(double numAleatorio) {
+		return null;
+	}
+
+}

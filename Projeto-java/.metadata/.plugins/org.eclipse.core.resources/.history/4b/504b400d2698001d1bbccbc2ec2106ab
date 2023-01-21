@@ -1,0 +1,23 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class OrdemCrecente {
+
+	public static void main(String[] args) {
+		int num, num1, i;
+		
+		try (Scanner cont = new Scanner(System.in)){
+			System.out.println("Insinra um numero: ");
+			num = cont.nextInt();
+			System.out.println("Insinra outro numero: ");
+			num1 = cont.nextInt();
+		}
+		if(num > num1) {
+			System.out.println(num+ " e o primeiro maior e "+ num1 +" e o segundo maior!");
+		}else {
+			System.out.println(num1+ " e o primeiro maior e "+ num +" e o segundo maior!");
+		}
+	}
+
+}
