@@ -5,5 +5,5 @@
  * @author Talysson
  *
  */
-module Exemplos_ {
+module banco {
 }
